@@ -1,4 +1,5 @@
 **Proyecto JWT-Auth Spring Boot**
+
 **Descripción General**
 Esta aplicación Spring Boot proporciona un servicio de autenticación basado en JSON Web Tokens (JWT). Permite a los usuarios registrarse, iniciar sesión y obtener tokens JWT para acceder a recursos protegidos.
 
@@ -19,9 +20,9 @@ Esta aplicación Spring Boot proporciona un servicio de autenticación basado en
 
 - **Spring Cloud OpenFeign**: Cliente declarativo para invocar servicios RESTful.
 
-**Estructura del Proyecto y Microservicio **
+**Estructura del Proyecto y Microservicio**
 
-**Proyecto Padre **
+**Proyecto Padre**
 `jwt-auth`
 
 El proyecto `jwt-auth` actúa como un contenedor para múltiples microservicios, estableciendo una base común para todos ellos. Al definirlo como el parent en el archivo `pom.xml` de `msvc-jwt-auth`, estamos heredando:
@@ -31,7 +32,7 @@ El proyecto `jwt-auth` actúa como un contenedor para múltiples microservicios,
 - **Plugins**: Plugins de Maven o Gradle que se utilizarán en la construcción y empaquetado de los microservicios.
 En esencia, spring-ecommerce proporciona una estructura unificada y facilita la gestión de dependencias comunes para todos los microservicios dentro del proyecto.
 
-**Microservicio **
+**Microservicio**
 `msvc-jwt-auth`
 Dentro de `jwt-auth`, `msvc-jwt-auth` es un microservicio independiente que se enfoca en una única responsabilidad: la autenticación de usuarios.
 
